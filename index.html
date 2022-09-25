@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Portfolio website</title>
+	<meta name="author" content="Larry Pang">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+	<div class="hero">
+		<nav>
+			<h2 class="logo">Portfo<span>lio</span></h2>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Me</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Contact Me</a></li>
+			</ul>
+			<a href="#" class="btn">Subscribe</a>
+		</nav>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+			<h1>Larry <span>Pang</span></h1>
+			<h3>I'am a Web Developer.</h3>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<button class="submit-button" type="submit" onclick="myFunction()">Let's Start</button>
+					<script>
+						function myFunction() {
+						  alert("Thanks for subscribing!");
+						}
+					</script>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<section class="about">
+		<div class="main">
+			<img src="Larry Pang copy.jpg">
+			<div class="about-text">
+				<h2>About Me</h2>
+				<h5>Developer <span>& Entrepreneur</span></h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+	</section>
+
+
+	<div class="project">
+		<div class="title">
+			<h2>My Projects</h2>
+		</div>
+
+		<div class="grid-container">
+			<div class="grid-item">1</div>
+			<div class="grid-item">2</div>
+			<div class="grid-item">3</div>  
+		  </div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Project 1</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Project 2</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Project 3</h5>
+				<div class="pra">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">Read More</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>Larry Pang</p>
+		<p>For more information - please click on the link below to subscribe to my linkedin:</p>
+		<div class="social">
+			<a href="https://www.linkedin.com/in/larry-p/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		</div>
+		<p class="end">Larry Pang 2022</p>
+	</footer>
+</body>
+</html>
